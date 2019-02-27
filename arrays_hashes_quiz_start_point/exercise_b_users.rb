@@ -57,7 +57,7 @@ users = {
 p users["Jonathan"][:twitter] #1
 p users["Erik"][:home_town] #2
 p users["Erik"][:lottery_numbers] #3
-p users["Avril"][:pets]#4
+p users["Avril"][:pets][0][:species]#4
 
 smallest_num = users["Jonathan"][:lottery_numbers][0]
 for num in users["Jonathan"][:lottery_numbers]
