@@ -19,7 +19,7 @@ united_kingdom = [
 
 p united_kingdom[1][:capital] = "Cardiff" #1
 
-p united_kingdom.push({name: "Northen Ireland", population: 527000, capital: "Dublin"}) #2
+p united_kingdom.push({name: "Northen Ireland", population: 527000, capital: "Belfast"}) #2
 
 for country in united_kingdom
   p country[:name]
