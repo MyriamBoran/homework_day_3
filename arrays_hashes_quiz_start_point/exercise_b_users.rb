@@ -96,7 +96,10 @@ p users["Erik"][:pets].push({:name =>"Fluffy", :species => "dog"}) #9
   }
 }
 
-p users.merge(extra_user)     #10
+
+
+ users.merge!(extra_user)
+ p users                                              #10
 
 
 
